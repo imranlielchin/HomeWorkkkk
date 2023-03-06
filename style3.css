@@ -1,0 +1,95 @@
+.navbar_menu{
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 100;
+}
+.navbar_menu_item{
+    margin: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+     
+}
+
+.logo{
+    display: flex;
+    color: white;
+}
+#header{
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    
+}
+body{
+    background-color: rgb(20, 135, 243);
+}
+
+.for_i{
+    color: white;
+    position: absolute;
+    right: 40px;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 0 30px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.span_business{
+    margin: 8px;
+}
+
+.word{
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    width: 500px;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.sentences{
+    font-size: 18px;
+    font-weight: 100;
+    
+}
+.start_but{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size:medium;
+    margin-top: 50px;
+    color:blue;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.watch_but{
+    padding: 12px;
+    border-radius: 50px;
+    border: none;
+}
+.watch_intro{
+    font-size: 18px;
+}
+.main_image{
+    object-fit: cover;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    right: 200px;
+    top: 200px;
+   
+}
