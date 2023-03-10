@@ -27,13 +27,15 @@ a{
     min-height: 70px;
     
 }
-body{
+.first_page{
+    height: 100vh;
     background-color: rgb(20, 135, 243);
 }
+.navbar_menu_item1
 
 .for_i{
     color: white;
-    position: absolute;
+    
     right: 40px;
 }
 
@@ -55,11 +57,10 @@ body{
     font-weight: 900;
     font-size: 25px;
     width: 500px;
-    position: absolute;
-    left: 25%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-
+    position:relative;
+    left: 10%;
+    top: 10%;
+    
 }
 .sentences{
     font-size: 18px;
@@ -92,4 +93,95 @@ body{
     right: 200px;
     top: 200px;
    
+}
+.second_page{
+  
+    background-color: white;
+}
+.second_image{
+    margin: 50px;
+    justify-content: space-around;
+}
+.second_div{
+    display: flex;
+}
+.h1_class{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.h2_class{
+    width: 300px;
+}
+.hs_class{
+    display: block;
+    margin-top: 90px;
+    align-items: center;
+    height: 499px;
+}
+.who_button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.vision_button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    color:black;
+    font-size: medium;
+    display: inline-block;
+    margin: 10px;
+}
+.history_button{
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    color:black;
+    font-size: medium;
+    display: inline-block;
+    margin: 10px;
+}
+.second_buttons{
+    background-color:rgb(239,239,239);
+    
+}
+
+
+.second_text{
+    opacity: 0.5;
+    width: 500px;
+    
+}
+.third_page{
+    position: relative;
+}
+.third_button{
+    padding: 12px;
+    border-radius: 30px;
+    border-color: blue;
+    color:blue;
+    font-size: small;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+}
+.h3_class{
+    position: absolute;
+    top: 120px;
+    left: 45%;
+    font-size: 40px; 
+}
+.text_third{
+    position: absolute;
+    top: 210px;
+    left: 40%;
+    width: 490px;
+    font-size:medium;
+    opacity: 0.7;
 }
